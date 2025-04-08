@@ -21,7 +21,7 @@ La aplicación tiene las siguientes características:
 1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git```
-   Abre el archivo ```index.html``` en tu navegador.
+   Abre el archivo index.html en tu navegador.
 
 ## Contribuciones
 
