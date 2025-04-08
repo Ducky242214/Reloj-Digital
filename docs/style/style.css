@@ -30,7 +30,7 @@ body {
 
 .Caja {
   min-width: 600px;
-  max-width: 800px;
+  width: 800px;
   min-height: 300px;
   max-height: 300px;
   margin: 15% auto;
