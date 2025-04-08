@@ -29,8 +29,9 @@ body {
 }
 
 .Caja {
-  width: 800px;
-  height: 300px;
+  width: 50%;
+  height: 20%;
+  min-width: 800px;
   margin: 15% auto;
   display: flex;
   justify-content: center;
