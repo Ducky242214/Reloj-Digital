@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  background-color: #201f1f;
+}
+
+@keyframes EntradaDesdeIzq {
+  0% {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: fuenteReloj;
+  src: url(fuentes/DS-DIGIB.TTF);
+}
+
+.Caja {
+  width: 800px;
+  height: 300px;
+  margin: 15% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.7em solid white;
+  border-radius: 0.5em;
+  box-shadow:  0 0 20px rgb(255, 255, 255), 0 0 20px rgba(10,175, 230,0);
+  background-color: rgb(20, 20, 20);
+  animation-name: EntradaDesdeIzq;
+  animation-duration: 2s;
+
+}
+
+.dias {
+  font-family: 'Share Tech Mono', monospace;
+  color: #918e8e;
+  text-shadow: 0 0 15px rgba(10,175, 230,0);
+padding-right: 70%;
+letter-spacing: 0.15em;
+line-height: 1.5em;
+font-size: 1.5em;
+}
+
+.reloj {
+  display: flex;
+  font-family: fuenteReloj;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 15px rgba(10,175, 230,0);
+  font-size: 6em;
+}
+
+.reloj_dot {
+padding-left: 10%;
+}
+
+.reloj__minuto {
+  padding-left: 10%;
+}
+
+.reloj__segundo {
+  padding-left: 10%;
+}
+
+.reloj__hora:hover {
+  transform: scale(1.5);
+  transition: .3s linear;
+}
+
+.reloj__minuto:hover {
+  transform: scale(1.5);
+  transition: .3s linear;
+}
+
+.reloj__segundo:hover {
+  transform: scale(1.5);
+  transition: .3s linear;
+}
+
+.dias__dia:hover {
+  transform: scale(1.5);
+  transition: .3s linear;
+}
+
