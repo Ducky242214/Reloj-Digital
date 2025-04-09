@@ -41,7 +41,7 @@ const mostrarDia = () => {
     } else if(dia === 3) {
         miercoles.style.textShadow = "0 0 15px rgb(255, 255, 255), 0 0 15px rgba(10,175, 230,0)"
         miercoles.style.color ="#ffffff";
-        miercoles.innerHTML = "<strong>Miercoles</strong>"
+        miercoles.innerHTML = "<strong>Miércoles</strong>"
     } else if(dia === 4) {
         jueves.style.textShadow = "0 0 15px rgb(255, 255, 255), 0 0 15px rgba(10,175, 230,0)"
         jueves.style.color ="#ffffff";
