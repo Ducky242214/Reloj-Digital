@@ -24,6 +24,12 @@ body {
   }
 }
 
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
 @font-face {
   font-family: fuenteReloj;
   src: url(fuentes/DS-DIGIB.TTF);
@@ -69,6 +75,10 @@ font-size: 1.5em;
 
 .reloj_dot {
 padding-left: 10%;
+animation-name: parpadeo;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
 }
 
 .reloj__minuto {
@@ -98,4 +108,3 @@ padding-left: 10%;
   transform: scale(1.5);
   transition: .3s linear;
 }
-
